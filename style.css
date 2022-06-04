@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(./img/bg.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container_header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.container_header_burger {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.container_header_buttons {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container_header_buttons_signup {
+  width: 110px;
+  height: 40px;
+  background: none;
+  border-radius: 50px;
+  border: white 1px solid;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.container_header_buttons_login {
+  width: 110px;
+  height: 40px;
+  background: none;
+  border-radius: 50px;
+  border: white 1px solid;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: white;
+  margin-left: 15px;
+}
+
+.container_content {
+  width: 670px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 111px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container_content_title {
+  margin: 0 auto;
+}
+
+.container_content_title_h1 {
+  font-family: 'Open Sans';
+  font-size: 100px;
+  line-height: 117px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.container_content_title_p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.container_content_search {
+  margin: 0 auto;
+}
+
+.container_content_search_input {
+  width: 655px;
+  height: 70px;
+  border-radius: 70px;
+  border: none;
+  margin-top: 80px;
+}
+
+.container_content_search_input::-webkit-input-placeholder {
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BDBDBDCC;
+}
+
+.container_content_search_input:-ms-input-placeholder {
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BDBDBDCC;
+}
+
+.container_content_search_input::-ms-input-placeholder {
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BDBDBDCC;
+}
+
+.container_content_search_input::placeholder {
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BDBDBDCC;
+}
+
+.container_content_search_input:focus {
+  outline: none;
+}
+
+.container_content_links {
+  margin: 0 auto;
+}
+
+.container_content_links_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.container_content_links_menu_item_link {
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.container_footer {
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.container_footer_socials {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+}
+
+.container_footer_question {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+.container_footer_question_p {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
